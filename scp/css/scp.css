@@ -1,6 +1,6 @@
 body {
     background: black url(http://www.netactive.co.nz/sites/all/themes/netactive/images/main-bg.jpg) center center;    
-    font-family:arial, helvetica, sans-serif;
+    font-family:Cabin, arial, helvetica, sans-serif;
     font-size:10pt;
     color:#000;
     margin:0;
@@ -380,7 +380,7 @@ table.list {
     background:#ccc;
     margin: 2px 0;
     border-bottom: 1px solid #ccc;
-    font-family:arial, helvetica, sans-serif;
+    font-family:Cabin, arial, helvetica, sans-serif;
     font-size:10pt;
 }
 
