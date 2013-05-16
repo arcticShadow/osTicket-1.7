@@ -22,6 +22,7 @@
     <link type="text/css" href="../css/ui-lightness/jquery-ui-1.8.18.custom.css" rel="stylesheet" />
     <link type="text/css" rel="stylesheet" href="../css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="./css/dropdown.css">
+    <link href="http://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="./js/jquery.dropdown.js"></script>
     <?php
     if($ost && ($headers=$ost->getExtraHeaders())) {

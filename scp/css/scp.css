@@ -1,5 +1,5 @@
 body {
-    background:#eee;
+    background: black url(http://www.netactive.co.nz/sites/all/themes/netactive/images/main-bg.jpg) center center;    
     font-family:arial, helvetica, sans-serif;
     font-size:10pt;
     color:#000;
@@ -62,21 +62,22 @@ a {
 }
 
 #header {
-    height:76px;
-    background:url(../images/header-bg.png) top left repeat-x;
-    border-left:1px solid #aaa;
-    border-right:1px solid #aaa;
+    height:100px;
+/*    background:url(../images/header-bg.png) top left repeat-x;*/
+    background:black;
+/*    border-left:1px solid #aaa;
+    border-right:1px solid #aaa;*/
 }
 
 #logo {
     display:block;
     float:left;
-    width:190px;
-    height:76px;
+    width:450px;
+    height:100px;
     text-decoration:none;
     outline:none;
     text-indent:-9999px;
-    background:url(../images/ost-logo.png) top left no-repeat;
+    background:url(../images/logo.png) center left no-repeat;
 }
 
 #header p {
@@ -113,6 +114,7 @@ a {
     z-index:200;
     border-top:1px solid #ddd;
     border-bottom:1px solid #c5d9ec;
+border-radius: 10px 10px 0 0;
 }
 
 #nav .active a, #nav .inactive {
@@ -355,9 +357,9 @@ a.Icon:hover {
     clear:both;
     border:1px solid #aaa;
     border-top:none;
-    border-bottom:3px solid #bbb;
     padding:10px 10px 20px 10px;
     background:#fff;
+    border-radius: 0 0 10px 10px;
 }
 
 #content a {
