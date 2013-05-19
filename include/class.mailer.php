@@ -124,7 +124,7 @@ class Mailer {
         }
 
         $mime = new Mail_mime();
-        $mime->setTXTBody($body);
+        $mime->setHtmlBody(nl2br($body));
         //XXX: Attachments
         if(($attachments=$this->getAttachments())) {
             foreach($attachments as $attachment) {
